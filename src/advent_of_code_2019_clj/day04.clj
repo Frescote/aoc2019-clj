@@ -28,10 +28,7 @@
                 (filter has-two-digits-equal)
                 (count)))
 
-
 (def part2 (->> (range 109165 576723)
                 (filter always-increasing)
                 (filter has-two-digits-equal-strict)
                 (count)))
-
-part2
